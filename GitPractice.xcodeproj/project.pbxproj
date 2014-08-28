@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4D6EB19AEC2CA00BD7D11 /* MyView.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87C4D6EA19AEC2CA00BD7D11 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		87C4D6EB19AEC2CA00BD7D11 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */,
 				AFC74B4819AEBDC100DC8CD5 /* ViewController.h */,
 				AFC74B4919AEBDC100DC8CD5 /* ViewController.m */,
+				87C4D6EA19AEC2CA00BD7D11 /* MyView.h */,
+				87C4D6EB19AEC2CA00BD7D11 /* MyView.m */,
 				AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */,
 				AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */,
 				AFC74B4119AEBDC100DC8CD5 /* Supporting Files */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
@@ -402,6 +408,7 @@
 				AFC74B6019AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC74B6119AEBDC100DC8CD5 /* Build configuration list for PBXNativeTarget "GitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				AFC74B6319AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
