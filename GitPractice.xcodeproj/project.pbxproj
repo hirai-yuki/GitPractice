@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4D6EB19AEC2CA00BD7D11 /* MyView.m */; };
 		AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F2B4819AEC23C00CA802C /* TestClass1.m */; };
+		AF9238BA19AF37A000529976 /* TestClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9238B919AF37A000529976 /* TestClass2.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
@@ -33,6 +34,8 @@
 		87C4D6EB19AEC2CA00BD7D11 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		AF5F2B4719AEC23C00CA802C /* TestClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass1.h; sourceTree = "<group>"; };
 		AF5F2B4819AEC23C00CA802C /* TestClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass1.m; sourceTree = "<group>"; };
+		AF9238B819AF37A000529976 /* TestClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass2.h; sourceTree = "<group>"; };
+		AF9238B919AF37A000529976 /* TestClass2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass2.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				AFC74B4119AEBDC100DC8CD5 /* Supporting Files */,
 				AF5F2B4719AEC23C00CA802C /* TestClass1.h */,
 				AF5F2B4819AEC23C00CA802C /* TestClass1.m */,
+				AF9238B819AF37A000529976 /* TestClass2.h */,
+				AF9238B919AF37A000529976 /* TestClass2.m */,
 			);
 			path = GitPractice;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			files = (
 				87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */,
 				BDF63B6919AEC2F50057289B /* myTamiya.m in Sources */,
+				AF9238BA19AF37A000529976 /* TestClass2.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
 				AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */,
