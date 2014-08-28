@@ -15,6 +15,7 @@
 		AFC74B4D19AEBDC100DC8CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */; };
 		AFC74B4F19AEBDC100DC8CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */; };
 		AFC74B5B19AEBDC100DC8CD5 /* GitPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */; };
+		BD38E6BB19AF37F900D99DF9 /* FunassyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38E6BA19AF37F900D99DF9 /* FunassyView.m */; };
 		BDF63B6919AEC2F50057289B /* myTamiya.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF63B6819AEC2F50057289B /* myTamiya.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		AFC74B5419AEBDC100DC8CD5 /* GitPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B5919AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitPracticeTests.m; sourceTree = "<group>"; };
+		BD38E6B919AF37F900D99DF9 /* FunassyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunassyView.h; sourceTree = "<group>"; };
+		BD38E6BA19AF37F900D99DF9 /* FunassyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunassyView.m; sourceTree = "<group>"; };
 		BDF63B6719AEC2F50057289B /* myTamiya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTamiya.h; sourceTree = "<group>"; };
 		BDF63B6819AEC2F50057289B /* myTamiya.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTamiya.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +99,8 @@
 				87C4D6EB19AEC2CA00BD7D11 /* MyView.m */,
 				BDF63B6719AEC2F50057289B /* myTamiya.h */,
 				BDF63B6819AEC2F50057289B /* myTamiya.m */,
+				BD38E6B919AF37F900D99DF9 /* FunassyView.h */,
+				BD38E6BA19AF37F900D99DF9 /* FunassyView.m */,
 				AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */,
 				AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */,
 				AFC74B4119AEBDC100DC8CD5 /* Supporting Files */,
@@ -233,6 +238,7 @@
 				87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */,
 				BDF63B6919AEC2F50057289B /* myTamiya.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
+				BD38E6BB19AF37F900D99DF9 /* FunassyView.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
 				AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
