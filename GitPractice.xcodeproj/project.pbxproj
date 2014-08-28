@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C4D6EB19AEC2CA00BD7D11 /* MyView.m */; };
+		AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F2B4819AEC23C00CA802C /* TestClass1.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
 		AFC74B4D19AEBDC100DC8CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */; };
 		AFC74B4F19AEBDC100DC8CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */; };
 		AFC74B5B19AEBDC100DC8CD5 /* GitPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */; };
+		BDF63B6919AEC2F50057289B /* myTamiya.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF63B6819AEC2F50057289B /* myTamiya.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		87C4D6EA19AEC2CA00BD7D11 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		87C4D6EB19AEC2CA00BD7D11 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		AF5F2B4719AEC23C00CA802C /* TestClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass1.h; sourceTree = "<group>"; };
+		AF5F2B4819AEC23C00CA802C /* TestClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass1.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 		AFC74B5419AEBDC100DC8CD5 /* GitPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B5919AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitPracticeTests.m; sourceTree = "<group>"; };
+		BDF63B6719AEC2F50057289B /* myTamiya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTamiya.h; sourceTree = "<group>"; };
+		BDF63B6819AEC2F50057289B /* myTamiya.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTamiya.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,13 @@
 				AFC74B4919AEBDC100DC8CD5 /* ViewController.m */,
 				87C4D6EA19AEC2CA00BD7D11 /* MyView.h */,
 				87C4D6EB19AEC2CA00BD7D11 /* MyView.m */,
+				BDF63B6719AEC2F50057289B /* myTamiya.h */,
+				BDF63B6819AEC2F50057289B /* myTamiya.m */,
 				AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */,
 				AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */,
 				AFC74B4119AEBDC100DC8CD5 /* Supporting Files */,
+				AF5F2B4719AEC23C00CA802C /* TestClass1.h */,
+				AF5F2B4819AEC23C00CA802C /* TestClass1.m */,
 			);
 			path = GitPractice;
 			sourceTree = "<group>";
@@ -221,8 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87C4D6EC19AEC2CA00BD7D11 /* MyView.m in Sources */,
+				BDF63B6919AEC2F50057289B /* myTamiya.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
+				AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
