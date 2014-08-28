@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F2B4819AEC23C00CA802C /* TestClass1.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF5F2B4719AEC23C00CA802C /* TestClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass1.h; sourceTree = "<group>"; };
+		AF5F2B4819AEC23C00CA802C /* TestClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass1.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */,
 				AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */,
 				AFC74B4119AEBDC100DC8CD5 /* Supporting Files */,
+				AF5F2B4719AEC23C00CA802C /* TestClass1.h */,
+				AF5F2B4819AEC23C00CA802C /* TestClass1.m */,
 			);
 			path = GitPractice;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			files = (
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
+				AF5F2B4919AEC23C00CA802C /* TestClass1.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				AFC74B6019AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC74B6119AEBDC100DC8CD5 /* Build configuration list for PBXNativeTarget "GitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				AFC74B6319AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
