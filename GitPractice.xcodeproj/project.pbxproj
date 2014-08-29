@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFC009EB19B040040082436F /* HiraiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC009EA19B040040082436F /* HiraiObject.m */; };
 		87074C4C19B03E890010B728 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87074C4B19B03E890010B728 /* MyView.m */; };
+		87D1D88D19B05B9100DF3418 /* CouponStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D1D88C19B05B9100DF3418 /* CouponStatusManager.m */; };
+		AFC009EB19B040040082436F /* HiraiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC009EA19B040040082436F /* HiraiObject.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
@@ -30,10 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AFC009E919B040040082436F /* HiraiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiraiObject.h; sourceTree = "<group>"; };
-		AFC009EA19B040040082436F /* HiraiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiraiObject.m; sourceTree = "<group>"; };
 		87074C4A19B03E890010B728 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = GitPractice/MyView.h; sourceTree = "<group>"; };
 		87074C4B19B03E890010B728 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = GitPractice/MyView.m; sourceTree = "<group>"; };
+		87D1D88B19B05B9100DF3418 /* CouponStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponStatusManager.h; sourceTree = "<group>"; };
+		87D1D88C19B05B9100DF3418 /* CouponStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponStatusManager.m; sourceTree = "<group>"; };
+		AFC009E919B040040082436F /* HiraiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiraiObject.h; sourceTree = "<group>"; };
+		AFC009EA19B040040082436F /* HiraiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiraiObject.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		AFC74B3519AEBDC100DC8CD5 = {
 			isa = PBXGroup;
 			children = (
+				87D1D88B19B05B9100DF3418 /* CouponStatusManager.h */,
+				87D1D88C19B05B9100DF3418 /* CouponStatusManager.m */,
 				AFC009E919B040040082436F /* HiraiObject.h */,
 				AFC009EA19B040040082436F /* HiraiObject.m */,
 				BD38E6BF19B04D7F00D99DF9 /* fassy.h */,
@@ -238,6 +243,7 @@
 				AFC009EB19B040040082436F /* HiraiObject.m in Sources */,
 				87074C4C19B03E890010B728 /* MyView.m in Sources */,
 				BD38E6BE19B03EA900D99DF9 /* myTamiya.m in Sources */,
+				87D1D88D19B05B9100DF3418 /* CouponStatusManager.m in Sources */,
 				BD38E6C119B04D7F00D99DF9 /* fassy.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
