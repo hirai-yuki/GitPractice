@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFC009EB19B040040082436F /* HiraiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC009EA19B040040082436F /* HiraiObject.m */; };
 		87074C4C19B03E890010B728 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87074C4B19B03E890010B728 /* MyView.m */; };
+		AFC009EB19B040040082436F /* HiraiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC009EA19B040040082436F /* HiraiObject.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
 		AFC74B4D19AEBDC100DC8CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4B19AEBDC100DC8CD5 /* Main.storyboard */; };
-		BD38E6BE19B03EA900D99DF9 /* myTamiya.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38E6BD19B03EA900D99DF9 /* myTamiya.m */; };
 		AFC74B4F19AEBDC100DC8CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */; };
 		AFC74B5B19AEBDC100DC8CD5 /* GitPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */; };
+		BD38E6BE19B03EA900D99DF9 /* myTamiya.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38E6BD19B03EA900D99DF9 /* myTamiya.m */; };
+		BD38E6C119B04D7F00D99DF9 /* fassy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38E6C019B04D7F00D99DF9 /* fassy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,24 +30,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AFC009E919B040040082436F /* HiraiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiraiObject.h; sourceTree = "<group>"; };
-		AFC009EA19B040040082436F /* HiraiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiraiObject.m; sourceTree = "<group>"; };
 		87074C4A19B03E890010B728 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyView.h; path = GitPractice/MyView.h; sourceTree = "<group>"; };
 		87074C4B19B03E890010B728 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyView.m; path = GitPractice/MyView.m; sourceTree = "<group>"; };
+		AFC009E919B040040082436F /* HiraiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiraiObject.h; sourceTree = "<group>"; };
+		AFC009EA19B040040082436F /* HiraiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiraiObject.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFC74B4519AEBDC100DC8CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFC74B4819AEBDC100DC8CD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD38E6BC19B03EA900D99DF9 /* myTamiya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTamiya.h; path = ../myTamiya.h; sourceTree = "<group>"; };
-		BD38E6BD19B03EA900D99DF9 /* myTamiya.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTamiya.m; path = ../myTamiya.m; sourceTree = "<group>"; };
 		AFC74B4919AEBDC100DC8CD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFC74B4C19AEBDC100DC8CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFC74B4E19AEBDC100DC8CD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFC74B5419AEBDC100DC8CD5 /* GitPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B5919AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B5A19AEBDC100DC8CD5 /* GitPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitPracticeTests.m; sourceTree = "<group>"; };
+		BD38E6BC19B03EA900D99DF9 /* myTamiya.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTamiya.h; path = ../myTamiya.h; sourceTree = "<group>"; };
+		BD38E6BD19B03EA900D99DF9 /* myTamiya.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTamiya.m; path = ../myTamiya.m; sourceTree = "<group>"; };
+		BD38E6BF19B04D7F00D99DF9 /* fassy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fassy.h; sourceTree = "<group>"; };
+		BD38E6C019B04D7F00D99DF9 /* fassy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fassy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 			children = (
 				AFC009E919B040040082436F /* HiraiObject.h */,
 				AFC009EA19B040040082436F /* HiraiObject.m */,
+				BD38E6BF19B04D7F00D99DF9 /* fassy.h */,
+				BD38E6C019B04D7F00D99DF9 /* fassy.m */,
 				87074C4A19B03E890010B728 /* MyView.h */,
 				87074C4B19B03E890010B728 /* MyView.m */,
 				AFC74B4019AEBDC100DC8CD5 /* GitPractice */,
@@ -233,6 +238,7 @@
 				BD38E6BE19B03EA900D99DF9 /* myTamiya.m in Sources */,
 				AFC009EB19B040040082436F /* HiraiObject.m in Sources */,
 				87074C4C19B03E890010B728 /* MyView.m in Sources */,
+				BD38E6C119B04D7F00D99DF9 /* fassy.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
