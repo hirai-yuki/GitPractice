@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFC009EB19B040040082436F /* HiraiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC009EA19B040040082436F /* HiraiObject.m */; };
 		AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4319AEBDC100DC8CD5 /* main.m */; };
 		AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4619AEBDC100DC8CD5 /* AppDelegate.m */; };
 		AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC74B4919AEBDC100DC8CD5 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFC009E919B040040082436F /* HiraiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiraiObject.h; sourceTree = "<group>"; };
+		AFC009EA19B040040082436F /* HiraiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiraiObject.m; sourceTree = "<group>"; };
 		AFC74B3E19AEBDC100DC8CD5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC74B4219AEBDC100DC8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC74B4319AEBDC100DC8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		AFC74B3519AEBDC100DC8CD5 = {
 			isa = PBXGroup;
 			children = (
+				AFC009E919B040040082436F /* HiraiObject.h */,
+				AFC009EA19B040040082436F /* HiraiObject.m */,
 				AFC74B4019AEBDC100DC8CD5 /* GitPractice */,
 				AFC74B5719AEBDC100DC8CD5 /* GitPracticeTests */,
 				AFC74B3F19AEBDC100DC8CD5 /* Products */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC009EB19B040040082436F /* HiraiObject.m in Sources */,
 				AFC74B4A19AEBDC100DC8CD5 /* ViewController.m in Sources */,
 				AFC74B4719AEBDC100DC8CD5 /* AppDelegate.m in Sources */,
 				AFC74B4419AEBDC100DC8CD5 /* main.m in Sources */,
@@ -402,6 +408,7 @@
 				AFC74B6019AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC74B6119AEBDC100DC8CD5 /* Build configuration list for PBXNativeTarget "GitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				AFC74B6319AEBDC100DC8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
